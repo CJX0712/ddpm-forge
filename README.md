@@ -1,5 +1,12 @@
 # Diffusion Forge — DDPM 扩散模型实验室（forge 系列）
 
+<p align="center">
+  <a href="https://github.com/CJX0712/ddpm-forge/actions/workflows/ci.yml"><img src="https://github.com/CJX0712/ddpm-forge/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <a href="https://github.com/CJX0712/ddpm-forge/releases"><img src="https://img.shields.io/github/v/release/CJX0712/ddpm-forge?sort=semver" alt="release"></a>
+  <a href="https://github.com/CJX0712/ddpm-forge/blob/main/LICENSE"><img src="https://img.shields.io/github/license/CJX0712/ddpm-forge" alt="license"></a>
+  <img src="https://img.shields.io/badge/author-%E6%99%A8%E6%98%9F-1f6feb" alt="author">
+</p>
+
 **零依赖 · 单文件 HTML · 引擎可无头自检的 Denoising Diffusion 概率模型。**
 
 从纯噪声到双月牙：可视化前向加噪 q(x_t|x_0) 与反向 ancestral 采样全过程，引擎 `DF.*` 无 DOM 依赖，可在 Node `vm` 中完整验证。浏览器打开 `index.html` 即用，无需构建、无需网络。
